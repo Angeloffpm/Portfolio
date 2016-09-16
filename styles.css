@@ -1,0 +1,170 @@
+@media screen and (min-width:501px){
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:#373737;
+	margin-top:100px;
+}
+
+
+#topbar{
+	background:#E74C3C;
+	width:99%;
+	min-height:100px;
+	position:fixed;
+	margin-left:.5%;
+	margin-top:.5%;
+	border: solid #943126;
+	top: 0;
+	left: 0;
+	z-index:2;
+}
+
+.topbarheading{
+	font-size: 30px;
+	color:#943126;
+	padding-top:30px;
+	padding-left:30px;
+}
+
+#info{
+	min-height:50%;
+	width:45%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+	.infoh{
+		font-size:50px;
+		text-align: center;
+	}
+
+	.infop{
+		font-size:125%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+	}
+
+	.infoimg{
+		width:30%;
+		float:right;
+		padding:5px;
+	}
+
+	.hoverimg{
+		width:30%;
+		float:right;
+		padding:5px;
+	}
+
+	.hoverimg:hover{
+		width:35%;
+	}
+
+	.smicon{
+		align-self:bottom;
+		width:22%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.span1{
+		color:purple;
+	}
+}
+
+
+@media screen and (max-width:500px){
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:#373737;
+	margin-top:100px;
+}
+
+
+#topbar{
+	background:#E74C3C;
+	width:100%;
+	min-height:100px;
+	position:fixed;
+	margin-left:.5%;
+	margin-top:.5%;
+	border: solid #943126;
+	top: 0;
+	left: 0;
+	z-index:2;
+}
+
+.topbarheading{
+	font-size: 30px;
+	color:#943126;
+	padding-top:30px;
+	padding-left:30px;
+}
+
+#info{
+	min-height:50%;
+	width:90%;
+	background:#C0392B;
+	border:solid #922B21;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+	.infoh{
+		font-size:50px;
+		text-align: center;
+	}
+
+	.infop{
+		font-size:125%;
+		padding:5px;
+		font-family: 'Chelsea Market', cursive;
+	}
+
+	.infoimg{
+		width:30%;
+		float:right;
+		padding:5px;
+	}
+
+	.hoverimg{
+		width:30%;
+		float:right;
+		padding:5px;
+	}
+
+	.hoverimg:hover{
+		width:35%;
+	}
+
+	.smicon{
+		align-self:bottom;
+		width:22%;
+		padding-left:10%;
+		padding-top:1%;
+		padding-bottom:5%;
+		position:relative;
+	}
+
+	.span1{
+		color:purple;
+	}
+}
